@@ -4,7 +4,126 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
+@*<div class="text-center">
     <h1 class="display-4">Welcome to Prajwals Cake Shop</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+</div>*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ff7f50;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+                nav ul li {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+
+                    nav ul li a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff7f50;
+        }
+
+        ul.menu {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+        }
+
+            ul.menu li {
+                width: 200px;
+                height: 200px;
+                background-color: #ff7f50;
+                margin: 10px;
+                text-align: center;
+                line-height: 200px;
+                font-size: 20px;
+                color: #fff;
+                border-radius: 5px;
+            }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Cake Shop</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+        <p>Welcome to our cake shop, where we create delicious and beautiful cakes for all occasions. Whether it's a birthday, wedding, or any special event, our talented bakers will craft the perfect cake to make your celebration memorable.</p>
+    </section>
+
+    <section>
+        <h2>Our Menu</h2>
+        <ul class="menu">
+            <li>Chocolate Cake</li>
+            <li>Vanilla Cake</li>
+            <li>Strawberry Cake</li>
+            <li>Red Velvet Cake</li>
+            <li>Carrot Cake</li>
+            <li>Cheesecake</li>
+            <li>Black Forest Cake</li>
+            <li>Blueberry Cake</li>
+            <!-- Add more cake options as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cake Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
